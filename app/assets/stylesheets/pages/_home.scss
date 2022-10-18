@@ -1,1 +1,21 @@
 // Specific CSS for your home-page
+html {
+  font-size: 80%;
+}
+
+body {
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  //background-color: black;
+  //height: 200vh;
+  background: linear-gradient(359deg, #1d4e42, #0a0d1e, #341313, #6a5725);
+  background-size: 800% 800%;
+  animation: background 120s ease infinite;
+}
+
+@keyframes background {
+  0%{background-position:50% 0%}
+  50%{background-position:51% 100%}
+  100%{background-position:50% 0%}
+}

@@ -1,0 +1,16 @@
+.cover {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(asset_path('banner_background.jpg'));
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.typed-js {
+  min-height: 33.6px;
+}
+
+.text-center h1 {
+  font-size: 6rem;
+}

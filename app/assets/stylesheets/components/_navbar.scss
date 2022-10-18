@@ -1,6 +1,12 @@
-.navbar-lewagon {
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
   justify-content: space-between;
-  background: white;
+  //background: white;
+  background: rgba(29, 29, 29, 0.161);
+  box-shadow: inset 49.6667px -49.6667px 49.6667px rgba(22, 22, 22, 0.161), inset -49.6667px 49.6667px 49.6667px rgba(255, 255, 255, 0.161);
+  backdrop-filter: blur(113.737px);
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -8,5 +14,9 @@
 }
 
 .navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.logo {
   width: 40px;
 }

@@ -1,0 +1,22 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon px-3 py-1">
+  <div class="container-fluid">
+    <%= link_to root_path, class: "navbar-brand" do %>
+      <%= image_tag "logo.svg", alt: "Le Wagon", width: 200 %>
+    <% end %>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto align-items-end">
+        <li class="nav-item active">
+          <%= link_to "My lists", root_path, class: "nav-link btn m-1 py-2 px-3" %>
+        </li>
+        <li class="nav-item active">
+          <%= link_to "New list", new_list_path, class: "nav-link btn m-1 py-2 px-3" %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
