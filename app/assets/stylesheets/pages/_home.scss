@@ -7,11 +7,11 @@ body {
   color: white;
   height: 100vh;
   width: 100vw;
-  //background-color: black;
+  background-color: black;
   //height: 200vh;
-  background: linear-gradient(359deg, #1d4e42, #0a0d1e, #341313, #6a5725);
-  background-size: 800% 800%;
-  animation: background 120s ease infinite;
+  //background: linear-gradient(359deg, #1d4e42, #0a0d1e, #341313, #6a5725);
+  //background-size: 800% 800%;
+  //animation: background 120s ease infinite;
 }
 
 @keyframes background {
